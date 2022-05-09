@@ -12,6 +12,6 @@ jobs:
           SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
           SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: 'Post Content :rocket:'
-          SLACK_TITLE: Flow CRM Application
+          SLACK_TITLE: Coronavirus Tracker Application
           SLACK_USERNAME: rtCamp
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
