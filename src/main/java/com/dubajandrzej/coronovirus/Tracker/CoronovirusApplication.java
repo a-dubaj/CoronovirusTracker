@@ -9,5 +9,4 @@ public class CoronovirusApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CoronovirusApplication.class, args);
 	}
-
 }
